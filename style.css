@@ -176,19 +176,20 @@ video {
   margin-right: 15px;
 }
 
-
-
 select {
-
+  background: transparent;
   color: var(--font-color);
   border: none;
   font-size: 18px;
   position: relative;
   top: -2.5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-
+select:focus {
+  outline: none;
+}
 
 select > option {
   background: rgba(0, 0, 0, 0.9);
